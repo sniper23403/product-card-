@@ -1,0 +1,113 @@
+html{
+    width: 1440px;
+    height: 571.5px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main{
+    width: 551px;
+    height: 484px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin-left: 444px;
+}
+
+/*img of the product*/
+.perfume{
+    width: 272px;
+    height: 484px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+/*P E R F U M E*/
+
+h2{
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    margin-left: 282px;
+    text-align: left;
+}
+
+/*Gabrielle Essence Eau De Parfum*/
+h1{
+    font-size: 24px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 900;
+    font-family: 'Fraunces';
+    width: 180px;
+    line-height: 30px;
+    margin-left: 282px ;
+
+}
+
+/*A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+    Perfumer-Creator for the House of CHANEL.*/
+h3{
+    width: 226px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    margin-left: 282px;
+
+}
+
+/*$169.99*/
+h4{
+    width: 57px;
+    margin-left: 282px;
+    color: hsl(228, 12%, 48%);
+}
+
+/*$149.99*/
+h5{
+    margin-left: 282px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 32px; ;
+}
+
+/*Add to Cart*/
+.button p {
+    font-size: 14px;
+    color:hsl(0, 0%, 100%) ;
+    text-align: center;
+    padding:15px 0px 0px 0px ;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+/*green button*/
+ div .button{
+    width: 215px;
+    height: 48px;
+    background-color: hsl(158, 36%, 37%) ;
+    border-radius: 5px;
+    margin-left: 282px;
+}
+
+/*icon-cart*/
+.button img{
+    background-color:hsl(158, 36%, 37%) ;
+    padding-right: 3px;
+}
+
+hr{
+    position: relative;
+    width: 46px;
+    border: 1px solid hsl(228, 12%, 48%) ;
+    transform: rotate(-180deg);
+    top: 19px;
+}
+/*footer*/
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding-top: 15px; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
