@@ -1,0 +1,65 @@
+html{
+    width: 1440px;
+    height: 571.5px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main{
+    width: 551px;
+    height: 484px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.perfume{
+    width: 272px;
+    height: 484px;
+    border-radius: 15px 0px 0px 15px;
+    position: relative;
+}
+
+h2{
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    margin-left: 282px;
+}
+
+h1{
+    font-size: 24px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 900;
+    font-family: 'Fraunces';
+    width: 180px;
+    line-height: 30px;
+    margin-left: 282px ;
+}
+
+h3{
+    width: 226px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    margin-left: 282px;
+}
+
+input{
+    width: 215px;
+    height: 40px;
+    margin-left: 282px;
+    background: hsl(158, 36%, 37%);
+    border-radius: 5px;
+}
+
+label{
+    color: hsl(0, 0%, 100%) ;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.icon{
+    width: 12px;
+    background-color:hsl(0, 0%, 0%) ;
+}
