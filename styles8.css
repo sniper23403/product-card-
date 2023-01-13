@@ -75,7 +75,7 @@ picture{
 h2{
 font-family: 'Montserrat';
 font-weight: 500;
-font-size: 16px;
+font-size: 1rem;
 letter-spacing: 3px;
 color: hsl(228, 12%, 48%);
 padding: 10px 15px 10px 15px;
@@ -93,7 +93,7 @@ padding: 10px 15px 10px 15px;
 /*A floral,solar and voluptuous interpretation compsed by Olivier Polge,Perfumer-Creator for the House of CHANEL*/
 .img-description p{
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   color: hsl(228, 12%, 48%);
   font-family: 'Montserrat';
   padding: 5px 120px 5px 20px;
@@ -130,7 +130,7 @@ button{
   padding-left: 10px;
 }
 .old-price{
-  font-size: 16px;
+  font-size: 1rem;
   color: hsl(228, 12%, 48%);
   font-family:'Fraunces';
   padding-left: 5px;
