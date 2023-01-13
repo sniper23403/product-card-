@@ -50,7 +50,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    left: 50%;
 }
 .card{
   background-color: hsl(0, 0%, 100%);
