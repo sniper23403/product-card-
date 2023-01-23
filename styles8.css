@@ -47,9 +47,12 @@
 
 body{
     background-color: hsl(30, 38%, 92%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card{
   background-color: hsl(0, 0%, 100%);
@@ -57,17 +60,22 @@ body{
   justify-content:center ;
   align-items: center;
   border-radius: 10px;
-  width: 50%;
+  width: 100%;
+  max-width: 700px;
+  height: 500px;
 }
 .right{
   width:auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /*img of the product*/
-picture{
+.img{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 0px 15px 0px 0px;
-  max-width: 600px;
+  max-width: 349px;
+  overflow: hidden;
 }
 
 /*Perfume*/
@@ -75,27 +83,27 @@ h2{
 font-family: 'Montserrat';
 font-weight: 500;
 font-size: 1rem;
-letter-spacing: 3px;
+letter-spacing: 0.19rem;
 color: hsl(228, 12%, 48%);
 padding: 10px 15px 10px 15px;
 }
 
 /*Gabrielle Essence Eau De Parfum*/
-.img-details p{
+.img-name{
   font-family: 'Fraunces';
-  font-weight: 700;
+  font-weight: 900;
   font-size: 2rem;
   color: hsl(212, 21%, 14%);
-  padding: 0px 150px 15px 10px;
+  padding: 0px 130px 15px 10px;
 } 
 
 /*A floral,solar and voluptuous interpretation compsed by Olivier Polge,Perfumer-Creator for the House of CHANEL*/
-.img-description p{
+.img-description {
   font-weight: 500;
   font-size: 1rem;
   color: hsl(228, 12%, 48%);
   font-family: 'Montserrat';
-  padding: 5px 120px 5px 20px;
+  padding: 5px 80px 5px 20px;
 }
 
 /*button*/
@@ -106,37 +114,45 @@ button{
   align-items: center;
   justify-content: center;
   border: 1px solid hsl(158, 36%, 37%);
-  width: 50%;
-  height: 48px;
+  width: 90%;
+  margin-top: 25px;
 }
 
-#button {
+span {
   font-size:1.3 rem;
   font-weight: 700;
   font-family: 'Montserrat';
   color: hsl(0, 0%, 100%);
+  padding: 11px 5px 11px 10px;
 
 }
-/*a:hover{
-  background-color: rgb(61, 31, 230);
-}*/
+
+button:hover{
+  background-color: hsl(158, 42%, 26%);
+}
 
 .new-price{
   font-size: xx-large;
   color: hsl(158, 36%, 37%);
   font-family:'Fraunces';
   font-weight: 700;
-  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
 }
 .old-price{
   font-size: 1rem;
   color: hsl(228, 12%, 48%);
   font-family:'Fraunces';
-  padding-left: 5px;
   font-weight: 700;
+  padding-left: 10px;
 }
-.prices{
-  display: flex;
-  align-items: center;
 
-}
+/*medias queries mobiles*/
+@media screen and (max-width=400px) {
+  .card{
+    display:grid;
+    grid-template-columns: auto;
+
+  }
+} 
